@@ -1,0 +1,7 @@
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    Newtonsoft.Json (13.0.3)
+    Serilog (3.1.1)
+  remote: https://pkgs.dev.azure.com/contoso/_packaging/internal/nuget/v3/index.json
+    Contoso.Internal.Utils (1.2.3)
+      Newtonsoft.Json (>= 13.0.0)

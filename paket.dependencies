@@ -1,0 +1,8 @@
+source https://api.nuget.org/v3/index.json
+source https://pkgs.dev.azure.com/contoso/_packaging/internal/nuget/v3/index.json username: "%NUGET_USER%" password: "%NUGET_TOKEN%"
+
+storage: none
+
+nuget Newtonsoft.Json >= 13.0.0
+nuget Serilog >= 3.0.0
+nuget Contoso.Internal.Utils >= 1.0.0
